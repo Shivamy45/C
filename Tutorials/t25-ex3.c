@@ -22,7 +22,7 @@ int main()
     int n;
     printf("Enter the number you want fibonacci series of\n");
     scanf("%d", &n);
-    printf("The value of fibonacci number at position no. %d using recursive approach is %d\n", n, fib_recursive(number));
+    printf("The value of fibonacci number at position no. %d using recursive approach is %d\n", n, fib_recursive(n));
 
     // iteration method
     if (n == 0)
